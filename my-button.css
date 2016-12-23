@@ -1,0 +1,28 @@
+/*
+ *  <buttton class="my-button my-button-primary">
+ *    <span class="icon">&hearts;</span>
+ *    <span class="text">Click me!</span>
+ *  </button>
+ */
+
+.my-button {
+  padding: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.my-button.my-button-primary {
+  background-image: -webkit-radial-gradient(circle, #00ff00, #0000ff);
+  background-image: radial-gradient(circle, #00ff00, #0000ff);
+  background-repeat: no-repeat;
+}
+
+.my-button .icon{
+  font-size: 20px;
+  color: #000000;
+  background-color: #ff0000;
+}
+
+.my-button .text {
+  background-color: #0000ff;
+  color: #000000;
+}
