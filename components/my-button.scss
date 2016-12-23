@@ -1,0 +1,20 @@
+.my-button {
+  padding: 20px;
+  font-family: $font-primary;
+
+  &.my-button-primary {
+    background: $color-green;
+    @include radial-gradient($color-green, $color-blue)
+  }
+
+  .icon {
+    font-size: 20px;
+    background-color: $color-red;
+    color: $color-black;
+  }
+
+  .text {
+    background-color: $color-blue;
+    color: $color-white;
+  }
+}

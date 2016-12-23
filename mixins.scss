@@ -1,0 +1,5 @@
+@mixin radial-gradient($inner-color, $outer-color) {
+  background-image: -webkit-radial-gradient(circle, $inner-color, $outer-color);
+  background-image: radial-gradient(circle, $inner-color, $outer-color);
+  background-repeat: no-repeat;
+}
